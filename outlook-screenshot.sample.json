@@ -1,0 +1,19 @@
+{
+  "vaultRoot": "C:\\path\\to\\Obsidian\\Vault",
+  "weeklyNotePattern": "91_MeetingSchedule/{weekYear}-W{week}.md",
+  "dailyNotePattern": "01_Daily/{date}.md",
+  "dailyTemplatePath": "90_Templates/Daily template.md",
+  "dailyInsertBeforeHeading": "## 明日やること",
+  "dailyMeetingHeading": "## 会議",
+  "dailyStartMarker": "<!-- outlook-screenshot:start -->",
+  "dailyEndMarker": "<!-- outlook-screenshot:end -->",
+  "noMeetingsLine": "- 予定なし",
+  "meetingCategoryRulesPath": "91_MeetingSchedule/00_MeetingCategoryRules.md",
+  "extractionMode": "openai",
+  "openAiApiUrl": "https://api.openai.com/v1/responses",
+  "openAiApiKeyEnvVar": "OPENAI_API_KEY",
+  "openAiModel": "gpt-5.4-mini",
+  "openAiImageDetail": "original",
+  "openAiTimeoutSeconds": 120,
+  "openAiMaxOutputTokens": 4000
+}
